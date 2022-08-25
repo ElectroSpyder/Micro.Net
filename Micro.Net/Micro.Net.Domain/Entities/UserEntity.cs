@@ -5,7 +5,7 @@
 
     public class UserEntity : AuditableEntity
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public UserName Name { get; set; }
         public UserPassword Password { get; set; }
         public UserEmail Email { get; set; }
